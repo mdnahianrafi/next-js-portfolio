@@ -59,12 +59,12 @@ words="Experience Seamlessness with Next.js Through My Work"
 
 
 
-<div className="col-span-6 xl:col-span-1 grid place-items-center">
+<div className="mt-10 col-span-6 xl:col-span-1 grid place-items-center hover:border rounded-3xl  transform rotate-3 hover:border-violet-500 hover:transform hover:rotate-0 hover:transition-all hover:ease-in-out hover:duration-300">
 <Image src={Profile}
 alt='myimage.png'
-width={500}
-height={500}
-unoptimized
+width={450}
+height={450}
+
 loading='lazy'
 />
 </div>
