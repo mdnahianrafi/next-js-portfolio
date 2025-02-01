@@ -6,8 +6,8 @@ import { GiProgression } from "react-icons/gi";
 import { MdDeveloperMode } from "react-icons/md";
 const MyApproach = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center  gap-y-10 lg:gap-x-3">
-<div className=" xl:w-1/3 ">
+    <div className="min-h-screen xl:flex  items-center justify-center  gap-y-10 lg:gap-x-3">
+<div className="w-full xl:w-1/3 ">
 <SpotlightCard className="custom-spotlight-card py-10 lg:py-16" spotlightColor="rgba(0, 229, 255, 0.2)">
 <div className=" w-full">
 <div className="flex justify-center py-1">
@@ -18,7 +18,7 @@ const MyApproach = () => {
 </div>
 </SpotlightCard>
 </div>
-<div className=" xl:w-1/3">
+<div className=" xl:w-1/3 mt-5">
 <SpotlightCard className="custom-spotlight-card p-10 lg:p-16" spotlightColor="rgba(0, 229, 255, 0.2)">
 <div className=" w-full">
 <div className="flex justify-center py-1">
@@ -29,7 +29,7 @@ const MyApproach = () => {
 </div>
 </SpotlightCard>
 </div>
-<div className=" xl:w-1/3">
+<div className=" xl:w-1/3 mt-5">
 <SpotlightCard className="custom-spotlight-card p-10 lg:p-[50px]" spotlightColor="rgba(0, 229, 255, 0.2)">
 <div className=" w-full">
 <div className="flex justify-center py-1">

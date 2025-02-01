@@ -13,7 +13,7 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     
-<div className="relative bg-grid-stone-950 bg-black-100 bg-[length:100px_100px]"
+<div className="relative bg-grid-stone-950 bg-black-100 bg-[length:100px_100px] overflow-x-hidden"
   style={{
     backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
       `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='28' height='28' fill='none'>
