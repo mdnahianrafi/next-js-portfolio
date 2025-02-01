@@ -8,6 +8,7 @@ import { CiLinkedin  } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { TbBrandFiverr } from "react-icons/tb";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Link from 'next/link'
 const Hero = () => {
   return (
     <div className='pb-20 pt-32 relative '>
@@ -35,21 +36,24 @@ words="Experience Seamlessness with Next.js Through My Work"
 
 <div className='pt-10 flex justify-center xl:justify-normal gap-x-5'>
    <Button>
-   <CiLinkedin  className='text-2xl' />
+ 
+ <Link href="  https://www.linkedin.com/in/nahian-rafi-1bb15a34a/">  <CiLinkedin  className='text-2xl' /></Link>
    </Button>
    <Button>
-   <FaGithub  className='text-2xl' />
+<Link href="https://www.fiverr.com/users/nahian_rafi/seller_dashboard">   <FaGithub  className='text-2xl' /></Link>
    </Button>
    <Button>
-   <TbBrandFiverr   className='text-2xl' />
+<Link href="https://github.com/mdnahianrafi">   <TbBrandFiverr   className='text-2xl' /></Link>
    </Button>
 </div>
 <div className='pt-10 flex justify-center xl:justify-normal gap-x-5'>
 <Button>
+<Link href="https://drive.google.com/file/d/15X76drP06RmlA_Q8hm1YIH8ccT602IHH/view?usp=sharing">
 <div className='px-10 flex gap-x-4'>
     <h2>My Resume</h2>
     <IoCloudDownloadOutline className='text-2xl'/>
 </div>
+</Link>
    </Button>
 
 </div>
